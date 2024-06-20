@@ -157,8 +157,8 @@ class App:
 
 if __name__ == "__main__":
     app: App = App(
-        client_id="00c64d2147594bf5a3f151afee1a0eb2",
-        client_secret="fb9ec2fe81cd43c3a39446df48169fda"
+        client_id=input("ClientID: "),
+        client_secret=input("ClientSecret: ")
     )
     app.run()
 
